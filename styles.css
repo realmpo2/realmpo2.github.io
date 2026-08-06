@@ -1,0 +1,40 @@
+body {
+  background-color: #000;
+  color: #fff;
+  
+}
+#lhtml body {
+display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  min-height: 100vh;       /* Fills the entire screen height */
+}
+.header {
+	color: #5C6AC4;
+  font-family: fantasy, sans-serif;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #38ff4f;
+}
+.header button {
+  background-color: #2f94e7;
+  vertical-align: center;
+}
+#log-in-section {
+  background-color: #133210;
+  margin: 0 42vh;
+  width: 40vw;
+  height: 35vh;
+  padding: 20px;
+  border-radius: 40px;
+  font-size: 10px;
+}
+#log-in-section input {
+  width: 20vw;
+}
+#d {
+  height: 10000px;
+}
+
